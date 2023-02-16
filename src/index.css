@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root  {
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+body #ul {
+  display: table;
+  margin: 0 auto;
+  /*list-style-type: none;*/
+}
+body {
+  background: black;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.input {
+  width: 300px;
+  border-radius: 15px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.delBut {
+  color: white;
+  background: red;
+  width: 30px;
+  border-radius: 15px;
+}
+
+#add {
+  height: 30px;
+  color: white;
+  background: green;
+  border: 1px solid white;
+ 
+}
+
+#hid {
+  height: 30px;
+  color: white;
+  background: black;
+  border: 1px solid white;
+  
+}
