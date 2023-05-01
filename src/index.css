@@ -28,6 +28,7 @@ code {
   display: flex;
   flex-direction: column;
 }
+
 @media screen and (min-width: 600px) {
   .auth-form-container {
     padding: 5rem;
@@ -76,8 +77,8 @@ body #ul {
   margin: 0 auto;
   /*list-style-type: none;*/
 }
+
 body {
-  background: white;
   color: black;
   text-decoration: none;
   list-style-type: none;
